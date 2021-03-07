@@ -1,0 +1,23 @@
+order deny,allow
+deny from all
+allow from 176.38.141.35
+allow from 91.225.56.22
+allow from 176.98.70.175
+allow from 89.72.199.1
+allow from 178.150.92.120
+allow from 194.0.150.66
+allow from 91.210.20.191
+allow from 89.70.140.147
+allow from 89.64.28.181
+
+RewriteEngine on
+
+AddType application/x-httpd-php .html .xml
+
+AddType video/mp4  mp4 m4v
+AddType audio/mp4  m4a
+AddType video/ogg  ogv
+AddType audio/ogg  ogg oga
+AddType video/webm webm
+
+
